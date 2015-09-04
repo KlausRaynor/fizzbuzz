@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Blank</title>
+    <title>FizzBuzz</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -25,9 +25,21 @@
 
 <div class="container">
 
-    <h1>Hello World!</h1>
-    <p class="lead">This is something!</p>
+    <h1>FizzBuzz!</h1>
+    <h2 id='show-num' style='display:inline-block;'>Starting Number: </h2>
+    <input type='text' id='num' maxlength='3' size='3'
+    style="display:inline-block;
+    line-height: 1.6em;
+    font-size:2em;"></input>
 
+    <p id='fizzbuzz'
+    style='width:400px;
+    margin-top: 0.5em;
+    border:1px solid #aaa;
+    border-radius:5px;
+    min-height:100px;
+    padding: 10px;'></p>
+    <p id='counters'></p>
 </div><!-- /.container -->
 
 
@@ -36,5 +48,6 @@
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src='js/script.js'></script>
 </body>
 </html>
